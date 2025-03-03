@@ -19,7 +19,7 @@ public class Movie extends Product{
 
     @Override
     public double getDiscount() {
-        return getPrice() * 100 / 100- 15;
+        return getPrice() * 0.85;
     }
 
     @Override
